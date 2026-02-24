@@ -73,6 +73,7 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
 
  `FLIDE.p`: The pre-compiled binary file of the core FLIDE algorithm. 
   Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.
-  `data/`: (Optional) Contains sample images for testing.
+  
+ `data/`: (Optional) Contains sample images for testing.
 
-  `results/`: Stores the corresponding enhanced images processed by the FLIDE algorithm, serving as a quality reference.
+ `results/`: Stores the corresponding enhanced images processed by the FLIDE algorithm, serving as a quality reference.
