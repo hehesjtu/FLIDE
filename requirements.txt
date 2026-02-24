@@ -1,0 +1,14 @@
+```text
+# MATLAB Dependencies for FLIDE Implementation
+
+# Environment
+MATLAB >= R2025a
+
+# Required Toolboxes
+Image Processing Toolbox
+Parallel Computing Toolbox
+Signal Processing Toolbox (Optional, dependent on specific gradient functions)
+
+# Note:
+# The core algorithm utilizes 'parfor' for acceleration. 
+# Ensure the Parallel Computing Toolbox is installed and licensed.
