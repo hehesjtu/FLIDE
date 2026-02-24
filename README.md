@@ -8,6 +8,7 @@ This repository contains the MATLAB implementation of the FLIDE algorithm propos
 "[Fick Diffusion Law Inspired Single Image Detail Enhancement]"
 
 Authors:[He Jiang {Member, IEEE}], [Jiahe Jiang]
+
 **Abstract:** Single image detail enhancement algorithms based on residual learning often employ greedy search strategies, which renders the system prone to falling into local optima. To address this issue, this study proposes a single image detail enhancement algorithm inspired by Fick's laws of diffusion, named **FLIDE**.
 
 The algorithm models the image patch matching problem as a diffusion transport process of molecules within non-uniform concentration and potential energy fields:
