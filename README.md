@@ -1,4 +1,4 @@
-# FLIDE: Fractional-order Local Image Detail Enhancement
+# FLIDE: Fick Diffusion Law Inspired Single Image Detail Enhancement
 
 This is the source code of paper named "Fick Diffusion Law Inspired Single Image Detail Enhancement". This paper is submitted to IEEE Transactions on Neural Networks and Learning Systems.
 
@@ -10,7 +10,7 @@ This repository contains the MATLAB implementation of the FLIDE algorithm propos
 
 Authors:[He Jiang {Member, IEEE}], [Jiahe Jiang]
 
-**Abstract:** Single image detail enhancement algorithms based on residual learning often employ greedy search strategies, which renders the system prone to falling into local optima. To address this issue, this study proposes a single image detail enhancement algorithm inspired by Fick's laws of diffusion, named **FLIDE**.
+**Abstract:** Single image detail enhancement algorithms based on residual learning often employ greedy search strategies, which renders the system prone to falling into local optima. To address this issue, this study proposes a single image detail enhancement algorithm inspired by Fick Diffusion Law, named **FLIDE**.
 
 The algorithm models the image patch matching problem as a diffusion transport process of molecules within non-uniform concentration and potential energy fields:
 
@@ -59,7 +59,7 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
 1.  Open MATLAB and navigate to the repository folder.
 2.  In the MATLAB Command Window, type the following command to launch the interface:
     ```matlab
-       UI
+       main
     ```
 3.  GUI Operations:
     Click **"Load Image"**  to select an input image (supports .png, .jpg, .bmp, .tif).
