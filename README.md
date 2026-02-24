@@ -1,4 +1,5 @@
-# FLIDE: Fractional-order Local Image Detail Enhancement
+# FLIDE
+This is the source code of paper named "Fick Diffusion Law Inspired Single Image Detail Enhancement". This paper is submitted to IEEE Transactions on Neural Networks and Learning Systems.
 
 This repository contains the MATLAB implementation of the FLIDE algorithm proposed in the paper:
 
