@@ -1,8 +1,9 @@
-# FLIDE
+# FLIDE: Fractional-order Local Image Detail Enhancement
+
 This is the source code of paper named "Fick Diffusion Law Inspired Single Image Detail Enhancement". This paper is submitted to IEEE Transactions on Neural Networks and Learning Systems.
 
-
 ## Introduction
+
 This repository contains the MATLAB implementation of the FLIDE algorithm proposed in the paper:
 
 "[Fick Diffusion Law Inspired Single Image Detail Enhancement]"
@@ -34,15 +35,11 @@ To run the code successfully, the following MATLAB toolboxes are required:
 
 ## Installation
 
-Download or clone this repository to your local machine.
-
-    ```bash
-    git clone [https://github.com/hehesjtu/FLIDE-Implementation.git](https://github.com/hehesjtu/FLIDE-Implementation.git)
+Download or clone this repository to your local machine.    ```bash  git clone [https://github.com/hehesjtu/FLIDE-Implementation.git](https://github.com/hehesjtu/FLIDE-Implementation.git)
     ```
 ## Project Structure
 The following directory hierarchy outlines the organization of the repository:
-
-```text
+```
 FLIDE/
 ├── data/               # Sample images for testing purposes
 │   ├── example1.png
@@ -56,8 +53,7 @@ FLIDE/
 ├── main.m                  # Main entry script with GUI
 ├── README.md               # Project documentation
 └── requirements.txt        # List of MATLAB toolboxes and dependencies
-└──  
-
+```
 This implementation provides a user-friendly GUI for testing the algorithm on custom images.
 
 1.  Open MATLAB and navigate to the repository folder.
@@ -72,11 +68,11 @@ This implementation provides a user-friendly GUI for testing the algorithm on cu
      Upon completion, the PSNR and SSIM metrics will be displayed in the interface.
      Click **"Save Result"**  to export the enhanced image.
     
-
 ## File Description
-
  `main.m`: The main entry point script containing the GUI implementation and interaction logic.
+
  `FLIDE.p`: The pre-compiled binary file of the core FLIDE algorithm. 
-  Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.*
-  `data: (Optional) Contains sample images for testing.
+  Note: The core algorithm is provided as a P-code file for copyright protection. It is functionally identical to the source code described in the paper.
+  `data/`: (Optional) Contains sample images for testing.
+
   `results/`: Stores the corresponding enhanced images processed by the FLIDE algorithm, serving as a quality reference.
